@@ -1,0 +1,26 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>fr.it.exalt</groupId>
+    <artifactId>jackpot-cash-back-parent</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <name>JackpotCashBack Parent</name>
+
+    <modules>
+        <module>jackpot-domain</module>
+        <module>jackpot-infrastructure</module>
+        <module>jackpot-application</module>
+    </modules>
+
+    <properties>
+        <maven.compiler.source>21</maven.compiler.source> <!-- Version Java -->
+        <maven.compiler.target>21</maven.compiler.target>
+        <spring-boot-version>3.4.2</spring-boot-version>
+    </properties>
+
+    <!-- Dépendances, configurations de plugins etc., si nécessaire -->
+</project>
